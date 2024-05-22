@@ -9,7 +9,7 @@ async function getImageAndDraw() {
         randomImg.forEach(el => {
             el.innerHTML = ''
             let load = document.createElement('img')
-            load.src = '../img/load.jpg'
+            load.src = './img/load.jpg'
             load.classList.add('load')
             el.append(load)
         })
